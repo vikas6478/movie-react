@@ -25,6 +25,7 @@ const Navbar = () => {
   }
 
   return (
+    <>
     <nav className="navbar">
       <div className="logo">MovieStar</div>
 
@@ -41,6 +42,7 @@ const Navbar = () => {
        { logoutbtn && <button onClick={handleLogout} className="logout-btn">Logout</button> }    
       </div>
     </nav>
+    </>
   );
 };
 

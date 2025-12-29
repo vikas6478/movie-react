@@ -4,6 +4,7 @@ import "../css/Footer.css";
 
 const Footer = () => {
   return (
+    <>
     <footer className="movie-footer">
 
       <div className="footer-top">
@@ -49,6 +50,7 @@ const Footer = () => {
       </div>
 
     </footer>
+    </>
   );
 };
 
