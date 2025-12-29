@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  background: url(../public/backgroundimg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(92, 88, 88, 0.55);   /* darkness control */
+  z-index: -1;
+}
