@@ -27,17 +27,17 @@ const Navbar = () => {
   return (
     <>
     <nav className="navbar">
-      <div className="logo">MovieStar</div>
+      <div className="logo">Cinova</div>
 
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/admin">Your-booking</Link></li>
         <li><Link to="/service">Service</Link></li>
       </ul>
 
       <div className="nav-buttons">
-        <Link to="/signup" className="logout-btn">SignUp</Link>
-        <Link to="/login" className="logout-btn">Login</Link>
+        <Link to="/signup" className="sighup-login-btn">SignUp</Link>
+        <Link to="/login" className="sighup-login-btn">Login</Link>
 
        { logoutbtn && <button onClick={handleLogout} className="logout-btn">Logout</button> }    
       </div>

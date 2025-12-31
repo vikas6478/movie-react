@@ -1,0 +1,34 @@
+.book-form {
+  width: 400px;
+  margin: 40px auto;
+  background: linear-gradient(to right,#ec4899,#3b82f6);
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.book-form input {
+  width: 90%;
+  padding: 6px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+.book-form button {
+  padding: 10px 0;
+  border-radius: 14px;
+  border: none;
+  background: #e5e7eb;
+  color: #1e293b;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 black;
+  transition: 0.2s;
+  width: 140px;
+}
+
+.book-form button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}

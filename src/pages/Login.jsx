@@ -33,6 +33,7 @@ const Login = () => {
           alert("password is wrong")
         }
         else{
+          localStorage.setItem("isLogin","true");
           nav("/")
         }
        
@@ -62,17 +63,6 @@ const Login = () => {
       </form>
     </div>
 
-    {/* <h1 className='text-center '>
-        login page
-    </h1>
-    
-    <form onSubmit={handleSubmit} >
-
-        enter name : <input type="text" value={form.name} name='name' onChange={handleChange} /> <br />
-        enter number : <input type="number" value={form.password} name='password' onChange={handleChange} /> <br />
-
-        <button type='submit'>submit</button>
-    </form> */}
     </>
   )
 } 

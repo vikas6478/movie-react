@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-brand">
           <FaFilm className="footer-icon" />
-          <h2>MovieStar</h2>
+          <h2>Cinova</h2>
           <p>Watch Unlimited Movies, Series & Shows Anytime, Anywhere.</p>
         </div>
 
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 MovieStar. All Rights Reserved.</p>
+        <p>© 2025 Cinova. All Rights Reserved.</p>
 
         <div className="footer-social">
           <FaGoogle />

@@ -47,12 +47,33 @@
   gap: 2px;
 }
 
+.sighup-login-btn {
+  padding: 6px 18px;
+  border-radius: 14px;
+  border: none;
+   background: #e5e7eb;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 black;
+  transition: 0.2s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 9px;
+}
+
+.sighup-login-btn:active {
+  box-shadow: none;
+  transform: translate(2px,2px);
+}
 .logout-btn {
   padding: 6px 18px;
   border-radius: 14px;
   border: none;
-  background: #e5e7eb;
-  color: black;
+  background: #f52d05;
+  color: rgb(255, 254, 254);
   font-weight: 600;
   cursor: pointer;
   box-shadow: 4px 4px 0 black;

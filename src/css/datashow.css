@@ -1,0 +1,91 @@
+
+.admin-title{
+  text-align:center;
+  color:white;
+  margin:25px 0;
+  font-size:28px;
+}
+
+
+.search-box{
+  margin: auto;
+  width:250px;
+  height: 40px;
+  display:flex;
+  justify-content:center;
+  margin-bottom:20px;
+  border-radius:6px;
+}
+
+.search-box input{
+  width:400px;
+  padding:10px;
+  border:none;
+  outline:none;
+  font-size:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+
+.admin-table{
+  width:90%;
+  margin:auto;
+  border-collapse:collapse;
+  background:linear-gradient(to right,#ec4899,#3b82f6);
+  border-radius:18px;
+  overflow:hidden;
+  color:white;
+  box-shadow:0 15px 30px rgba(0,0,0,.4);
+}
+
+.admin-table th{
+  background:rgba(0,0,0,.25);
+  padding:14px;
+  text-align:left;
+}
+
+.admin-table td{
+  padding:12px;
+  border-top:1px solid rgba(255,255,255,.2);
+}
+
+
+.delete-btn,.edit-btn{
+  padding:6px 14px;        
+  /* border-radius:12px; */
+  border:none;
+  background:#e5e7eb;
+  color:#1e293b;
+  font-weight:600;
+  cursor:pointer;
+  box-shadow:3px 3px 0 black;
+  transition:.2s;
+  width:95px;             
+  margin:4px 6px;        
+}
+
+
+.delete-btn:active,.edit-btn:active{
+  transform:translateY(2px);
+  box-shadow:none;
+}
+
+
+.edit-form{
+  width:400px;
+  margin:30px auto;
+  background:linear-gradient(to right,#ec4899,#3b82f6);
+  padding:20px;
+  border-radius:20px;
+  color:white;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.edit-form input{
+  width:90%;
+  padding:8px;
+  margin:8px 0;
+  border-radius:10px;
+  border:none;
+}
